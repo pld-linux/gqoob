@@ -1,0 +1,17 @@
+diff -urN gqoob-0.3.0.orig/gqoob.desktop gqoob-0.3.0/gqoob.desktop
+--- gqoob-0.3.0.orig/gqoob.desktop	Sun Oct  6 14:41:11 2002
++++ gqoob-0.3.0/gqoob.desktop	Sun Oct  6 14:42:57 2002
+@@ -1,8 +1,11 @@
+ [Desktop Entry]
++Encoding=UTF-8
+ Name=GQoob
++Name[pl]=GQoob
+ Comment=Media player
++Comment[pl]=Odtwarzacz multimediów
+ Exec=gqoob
+ Icon=gqoob.png
+-Info=media player
+-Terminal=0
++Terminal=false
+ Type=Application
++Categories=GNOME;Application;AudioVideo;
