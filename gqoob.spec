@@ -17,8 +17,6 @@ BuildRequires:	xine-lib-devel >= 0.9.13
 Requires:	xine-lib >= 0.9.13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 GQoob is a slightly configurable media player that uses the XINE
