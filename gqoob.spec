@@ -45,10 +45,11 @@ intltoolize
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT{%{_desktopdir},%{_pixmapsdir}}
+
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
+
 install gqoob.desktop $RPM_BUILD_ROOT%{_desktopdir}
 install gqoob.png $RPM_BUILD_ROOT%{_pixmapsdir}
 
