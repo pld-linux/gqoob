@@ -24,7 +24,7 @@ GQoob is a slightly configurable media player that uses the XINE
 library.
 
 %description -l pl
-GQoob jest czê¶ciowo konfigurowalnym odtwarzaczem bazuj±cym 
+GQoob jest czê¶ciowo konfigurowalnym odtwarzaczem bazuj±cym
 na bibliotece XINE.
 
 %prep
