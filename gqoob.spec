@@ -5,7 +5,7 @@ Version:	0.3.0
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Source0:	http://twtelecom.dl.sourceforge.net/sourceforge/gqmpeg/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/sourceforge/gqmpeg/%{name}-%{version}.tar.gz
 # Source0-md5:	1949a0b17d0d52bfefab0458b6664af4
 Patch0:		%{name}-desktop.patch
 URL:		http://gqmpeg.sourceforge.net/
