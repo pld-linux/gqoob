@@ -5,7 +5,7 @@ Version:	0.3.0
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Source0:	http://dl.sourceforge.net/sourceforge/gqmpeg/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/gqmpeg/%{name}-%{version}.tar.gz
 # Source0-md5:	1949a0b17d0d52bfefab0458b6664af4
 Patch0:		%{name}-desktop.patch
 URL:		http://gqmpeg.sourceforge.net/
@@ -48,9 +48,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-install -d $RPM_BUILD_ROOT%{_datadir}/applications
-install -d $RPM_BUILD_ROOT%{_pixmapsdir}
-install gqoob.desktop $RPM_BUILD_ROOT%{_datadir}/applications
+install -d $RPM_BUILD_ROOT{%{_desktopdir},%{_pixmapsdir}}
+install gqoob.desktop $RPM_BUILD_ROOT%{_desktopdir}
 install gqoob.png $RPM_BUILD_ROOT%{_pixmapsdir}
 
 %find_lang %{name}
@@ -63,6 +62,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc README TODO SKIN-SPECS
 %attr(755,root,root) %{_bindir}/gqoob
 %{_datadir}/gqoob
-%{_datadir}/applications/*
-%{_datadir}/pixmaps/gqoob.png
+%{_desktopdir}/*
+%{_pixmapsdir}/gqoob.png
 %{_mandir}/man?/*
