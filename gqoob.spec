@@ -63,6 +63,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc README TODO SKIN-SPECS
 %attr(755,root,root) %{_bindir}/gqoob
 %{_datadir}/gqoob
-%{_desktopdir}/*
+%{_desktopdir}/*.desktop
 %{_pixmapsdir}/gqoob.png
 %{_mandir}/man?/*
