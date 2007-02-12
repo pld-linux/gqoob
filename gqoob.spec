@@ -1,5 +1,5 @@
 Summary:	Media player
-Summary(pl):	Odtwarzacz multimediów
+Summary(pl.UTF-8):   Odtwarzacz multimediÃ³w
 Name:		gqoob
 Version:	0.3.0
 Release:	1
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 GQoob is a slightly configurable media player that uses the XINE
 library.
 
-%description -l pl
-GQoob jest czê¶ciowo konfigurowalnym odtwarzaczem bazuj±cym
+%description -l pl.UTF-8
+GQoob jest czÄ™Å›ciowo konfigurowalnym odtwarzaczem bazujÄ…cym
 na bibliotece XINE.
 
 %prep
