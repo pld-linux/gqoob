@@ -1,5 +1,5 @@
 Summary:	Media player
-Summary(pl.UTF-8):   Odtwarzacz multimediów
+Summary(pl.UTF-8):	Odtwarzacz multimediów
 Name:		gqoob
 Version:	0.3.0
 Release:	1
